@@ -59,10 +59,10 @@ if __name__ == "__main__":
         "http://www.geocaching.com/geocache/GC4JW4R_cyklostezka-varhany-oldrichovska-viii",
         "http://www.geocaching.com/geocache/GC4JW4A_cyklostezka-varhany-oldrichovska-vii"
             ]
-    message = "O vikendu jsme podnikli mensi vylet a padla nam do oka tahle serie. Udelali jsme jeji prvni polovinu, ale urcite prijdeme udelat i zbytek. Moc diky za peknou prochazku. Geohafanovi se tu take moc libilo. A jeste diky za pokoreni 400 kese!"
+    message = ""
     g = Geo()
     print 'login'
-    g.login('x3mSpeedy', '')
+    g.login('', '')
 
     for link in urls:
         print 'logging: ' + link
